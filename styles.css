@@ -1,5 +1,5 @@
 *{
-    font: "Hero";
+    font-family: sans-serif;
 }
 
 body {
@@ -17,7 +17,6 @@ body {
     width: auto;
     align-items: center;
     padding: 0 20px;
-
 }
 
 .logo {
@@ -34,4 +33,51 @@ body {
 a {
     font-size: 18px;
     color: #E5E7EB;
+    text-decoration: none;
+}
+
+.one {
+    display: flex;
+    background-color: #1F2937;
+    height: 25vh;
+    min-height: 300px;
+    align-items: center;
+    padding: 0 20px;
+    gap: 40px;
+}
+
+.one-left {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    gap: 5px;
+}
+
+.awesome {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.one-left button {
+    background-color: #3882F6;
+    padding: 5px 25px;
+    width: fit-content;
+    border-radius: 8px;
+    color: #F9FAF8;
+}
+
+.img-1 {
+    display: flex;
+    height: 200px;
+    width: 40vw;
+    max-height: auto;
+    background-color: #bbb8b8;
+    justify-content: center;
+    align-items: center;
 }
