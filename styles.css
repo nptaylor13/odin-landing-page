@@ -88,7 +88,7 @@ a {
     background-color: #F9FAF8;
     padding: 0 20px;
     align-items: center;
-    height: 25 vh;
+    height: 25vh;
     min-height: 300px;
     justify-content: center;
     gap: 30px;
@@ -126,4 +126,35 @@ a {
     font-size: 12px;
     text-align: center;
     width: 120px;
+}
+
+.three {
+    display: flex;
+    background-color: #E5E7EB;
+    padding: 0 20px;
+    height: 20vh;
+    min-height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.three-container {
+    display: flex;
+    flex-direction: column;
+    width: 825px;
+    gap: 10px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.quote-author {
+    font-size: 20px;
+    color: #1F2937;
+    font-weight: 800;
+    text-align: right;
 }
